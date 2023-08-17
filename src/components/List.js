@@ -44,7 +44,7 @@ const List = () => {
           <span class="material-symbols-outlined">home</span>
         </Link>
       </div>
-    <div className="grid grid-cols-1 md:grid-cols-5 gap-3 px-10 mt-5">
+    <div className="grid grid-cols-1 md:grid-cols-5 gap-3 px-32 mt-5">
     {
       allMovies.map((value,key)=>(
           <div className="shadow" key={key}>
